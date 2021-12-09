@@ -1,0 +1,236 @@
+{
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://www.traveloffpath.com/wp-content/uploads/2021/10/Encouraging-Travel-And-Hotel-Occupancy-Figures-Project-A-Busy-Winter-Of-Travel.jpg",
+              "size": "full",
+              "aspectMode": "cover",
+              "aspectRatio": "2:3",
+              "gravity": "top"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "多國語言翻譯助手",
+                      "size": "xl",
+                      "color": "#ffffff",
+                      "weight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "偵測文字",
+                      "color": "#ebebeb",
+                      "size": "sm",
+                      "flex": 0,
+                      "decoration": "underline"
+                    },
+                    {
+                      "type": "text",
+                      "text": "即時翻譯",
+                      "color": "#ffffffcc",
+                      "decoration": "underline",
+                      "gravity": "bottom",
+                      "flex": 0,
+                      "size": "sm"
+                    }
+                  ],
+                  "spacing": "lg"
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "filler"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "baseline",
+                      "contents": [
+                        {
+                          "type": "filler"
+                        },
+                        {
+                          "type": "icon",
+                          "url": "https://www.freeiconspng.com/thumbs/white-arrow-png/white-arrow-image-png-14.png",
+                          "size": "md"
+                        },
+                        {
+                          "type": "text",
+                          "text": "開始文字偵測",
+                          "color": "#ffffff",
+                          "flex": 2,
+                          "offsetTop": "-2px"
+                        },
+                        {
+                          "type": "filler"
+                        }
+                      ],
+                      "spacing": "sm"
+                    },
+                    {
+                      "type": "filler"
+                    }
+                  ],
+                  "borderWidth": "1px",
+                  "cornerRadius": "4px",
+                  "spacing": "sm",
+                  "borderColor": "#ffffff",
+                  "margin": "xxl",
+                  "height": "40px",
+                  "action": {
+                    "type": "message",
+                    "label": "開始使用功能",
+                    "text": "開始文字偵測"
+                  }
+                }
+              ],
+              "position": "absolute",
+              "offsetBottom": "0px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px",
+              "backgroundColor": "#004B97cc",
+              "paddingAll": "20px",
+              "paddingTop": "18px"
+            }
+          ],
+          "paddingAll": "0px"
+        }
+      },
+      {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://vcdn-english.vnecdn.net/2021/07/07/bank-6895-1625625848.png",
+              "size": "full",
+              "aspectMode": "cover",
+              "aspectRatio": "2:3",
+              "gravity": "top"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "即時匯率換算助手",
+                      "size": "xl",
+                      "color": "#ffffff",
+                      "weight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "匯率查詢",
+                      "color": "#ebebeb",
+                      "size": "sm",
+                      "flex": 0,
+                      "decoration": "underline"
+                    },
+                    {
+                      "type": "text",
+                      "text": "即時換算",
+                      "color": "#ffffffcc",
+                      "decoration": "underline",
+                      "gravity": "bottom",
+                      "flex": 0,
+                      "size": "sm"
+                    }
+                  ],
+                  "spacing": "lg"
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "filler"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "baseline",
+                      "contents": [
+                        {
+                          "type": "filler"
+                        },
+                        {
+                          "type": "icon",
+                          "url": "https://www.freeiconspng.com/thumbs/white-arrow-png/white-arrow-image-png-14.png"
+                        },
+                        {
+                          "type": "text",
+                          "text": "開始匯率查詢",
+                          "color": "#ffffff",
+                          "flex": 2,
+                          "offsetTop": "-2px"
+                        },
+                        {
+                          "type": "filler"
+                        }
+                      ],
+                      "spacing": "sm"
+                    },
+                    {
+                      "type": "filler"
+                    }
+                  ],
+                  "borderWidth": "1px",
+                  "cornerRadius": "4px",
+                  "spacing": "sm",
+                  "borderColor": "#ffffff",
+                  "margin": "xxl",
+                  "height": "40px",
+                  "action": {
+                    "type": "message",
+                    "label": "action",
+                    "text": "開始匯率查詢"
+                  }
+                }
+              ],
+              "position": "absolute",
+              "offsetBottom": "0px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px",
+              "backgroundColor": "#03303Acc",
+              "paddingAll": "20px",
+              "paddingTop": "18px"
+            }
+          ],
+          "paddingAll": "0px"
+        }
+      }
+    ]
+  }

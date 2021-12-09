@@ -1,0 +1,175 @@
+{
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "您想要將台幣算成?",
+          "contents": [],
+          "margin": "none",
+          "offsetBottom": "sm"
+        },
+        {
+          "type": "separator",
+          "margin": "md"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "美金 (USD)",
+            "text": "您選擇 USD"
+          },
+          "height": "md"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "港幣 (HKD)",
+            "text": "您選擇 HKD"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "英鎊 (GBP)",
+            "text": "您選擇 GBP"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "澳幣 (AUD)",
+            "text": "您選擇 AUD"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "加拿大幣 (CAD)",
+            "text": "您選擇 CAD"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "新加坡幣 (SGD)",
+            "text": "您選擇 SGD"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "瑞士法郎 (CHF)",
+            "text": "您選擇 CHF"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "日圓 (JPY)",
+            "text": "您選擇 JPY"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "南非幣 (ZAR)",
+            "text": "您選擇 ZAR"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "瑞典幣 (SEK)",
+            "text": "您選擇 SEK"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "紐元 (NZD)",
+            "text": "您選擇 NZD"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "泰幣 (THB)",
+            "text": "您選擇 THB"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "菲國比索 (PHP)",
+            "text": "您選擇 PHP"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "印尼幣 (IDR)",
+            "text": "您選擇 IDR"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "歐元 (EUR)",
+            "text": "您選擇 EUR"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": " 韓元 (KRW)",
+            "text": "您選擇 KRW"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "越南盾 (VND)",
+            "text": "您選擇 VND"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": " 馬來幣 (MYR)",
+            "text": "您選擇 MYR"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "人民幣 (CNY)",
+            "text": "您選擇 CNY"
+          }
+        }
+      ],
+      "borderWidth": "medium",
+      "cornerRadius": "none"
+    }
+  }
