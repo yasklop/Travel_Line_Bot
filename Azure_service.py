@@ -7,7 +7,7 @@ import requests, uuid, json
 
 def translate_to(text, to_language):
 
-    subscription_key = ""
+    subscription_key = "175a7f430fdd47c0a1aeb100baeb5c71"
     endpoint = "https://api.cognitive.microsofttranslator.com/"
 
     # Add your location, also known as region. The default is global.
@@ -56,7 +56,7 @@ from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 
 
-key = ""
+key = "7efb6a87241d4df3be274cbeb3f86efa"
 endpoint = "https://linbotlanguage.cognitiveservices.azure.com/"
 
 # Authenticate the client using your key and endpoint 
@@ -103,7 +103,7 @@ import sys
 import time
 
 
-subscription_key = ""
+subscription_key = "ca07131a12a84163bdcadb8d151d5be0"
 endpoint = "https://ohohoh.cognitiveservices.azure.com/"
 
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
