@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
+
+
 def currency_rate(country):
     response = requests.get(
         "https://rate.bot.com.tw/xrt?Lang=zh-TW")\

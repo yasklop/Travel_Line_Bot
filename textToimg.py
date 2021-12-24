@@ -13,7 +13,7 @@ from linebot.exceptions import (
 )
 from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage, AudioMessage,
-    LocationSendMessage, ImageSendMessage, StickerSendMessage, ImageMessage, FlexSendMessage,
+    LocationSendMessage, ImageSendMessage, StickerSendMessage, ImageMessage, FlexSendMessage,FollowEvent,
     TemplateSendMessage, ButtonsTemplate, PostbackAction, MessageAction, ConfirmTemplate, PostbackEvent, messages
 )
 
@@ -40,8 +40,12 @@ def callback():
     return 'OK'
 
 
+@handler.add(FollowEvent)
+def handle_follow(event):
+    FlexMessage_index = json.load(open('index.json','r',encoding='utf-8'))
+    line_bot_api.reply_message(event.reply_token, FlexSendMessage('index',FlexMessage_index))
 
-
+    
 @handler.add(MessageEvent, message=ImageMessage)
 def handle_image(event):
 
