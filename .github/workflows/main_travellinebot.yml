@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'travelLineBot'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F6AD898D033542518BCCE7E81A9B326E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_95ECBBCF171B48B7B6E27D0FAE53B93C }}
